@@ -36,6 +36,27 @@ p{
     padding:0px 20px;
     margin: auto;
 }
+.text-primary{
+    color:#f7c08a;
+}
+.lead{
+    font-size:20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color:#fff;
+    background: #333;
+    padding: 13px 20px;
+    border:none;
+}
+
+.btn:hover {
+    background: #f7c08a;
+    color: #333;
+
+}
 /* navbar */
 
 #navbar{
@@ -76,3 +97,29 @@ p{
     background-color: #444;
     color:#f7c08a;
 }
+
+
+/* Home showcase area */
+.showcase{
+    background: url('/img/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+
+.showcase .showcase-content{
+    text-align: center;
+    color: white;
+    padding-top: 170px;
+}
+
+.showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+.showcase .showcase-content p{
+    font-size: 18px;
+    line-height: 1.7em;
+}
+
+/* Home info areas */
+
+
