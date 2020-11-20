@@ -48,7 +48,7 @@ p{
     font-size:20px;
 }
 .bg-dark{
-    background-color: #333;
+    background-color: #444;
     color:#fff;
 }
 .bg-light {
@@ -268,6 +268,7 @@ height: 400px;
 
 #contact-form .form-group{
     margin-bottom: 20px;
+    
 }
 
 #contact-form .form-group label{
@@ -287,3 +288,6 @@ height: 400px;
     border: 1px solid #f7c08a;
 }
 
+#contact-info{
+    overflow: hidden;
+}
