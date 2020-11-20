@@ -239,6 +239,7 @@ height: 400px;
     margin-bottom:40px;
     border-radius: 5px;
     opacity: 0.9;
+    overflow: hidden;
 }
 #testimonial .testimonial img{
     float: left;
