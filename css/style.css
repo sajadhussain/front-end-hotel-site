@@ -40,6 +40,10 @@ p{
 .text-primary{
     color:#f7c08a;
 }
+.bg-primary{
+    background-color:#f7c08a;
+    color:#333;
+}
 .lead{
     font-size:20px;
 }
@@ -51,10 +55,7 @@ p{
     background-color:#f4f4f4;
     color: #333;
 }
-.bg-light {
-    color: #f4f4f4;
-    background-color: #333;
-}
+
 
 
 .btn{
@@ -166,4 +167,17 @@ height: 400px;
 }
 #home-info .info-content p{
     padding-bottom: 30px ;
+}
+
+
+/* Featured */
+
+.box{
+    float:left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+.box i{
+    margin-bottom: 10px;
 }
