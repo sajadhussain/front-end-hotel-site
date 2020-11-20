@@ -4,6 +4,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 /* Main styling */
@@ -66,7 +67,7 @@ p{
 }
 .btn-light{
     background-color:#f4f4f4;
-    color:#fff;
+    columns: #333333;
 }
 
 .btn:hover {
@@ -141,7 +142,7 @@ p{
 
 #home-info{
 height: 400px;
-overflow: hidden;
+
  
 
 }
@@ -149,13 +150,13 @@ overflow: hidden;
 #home-info .info-img{
     float: left;
     width: 50%;
-    background:url('/img/person-1.jpg') no-repeat;
+    background:url('/img//photo-1.jpg') no-repeat;
     min-height: 100%;
     
 }
 #home-info .info-content{
     text-align: center;
-    float: right;
+    float:right;
     width: 50%;
     height: 100%;
     padding:50px 30px;
