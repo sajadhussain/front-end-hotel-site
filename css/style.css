@@ -78,6 +78,24 @@ p{
     color: #333;
 
 }
+/* large heading */
+.l-heading{
+    font-size: 40px;
+}
+
+/* padding */
+.py-1{
+    padding:10px 0px;
+}
+.py-2{
+    padding:20px 0px;
+}
+.py-3{
+    padding:30px 0px;
+}
+.py-4{
+    padding:40px 0px;
+}
 /* navbar */
 
 #navbar{
@@ -184,6 +202,33 @@ height: 400px;
     margin-bottom: 10px;
 }
 
+/* About us : Feature section */
+
+     #about-info .info-right{
+         text-align:center;
+         float: right;
+         width: 50%;
+         min-height: 100%;
+     }
+
+     #about-info  .info-right img{
+         display: block;
+         margin:auto;
+         width: 70%;
+         border-radius: 50%;
+           
+     }
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    text-align: center;
+
+}
+#about-info{
+    overflow: hidden;
+}
+
+
 #main-footer{ 
     text-align: center;
     background-color: #333;
@@ -191,3 +236,7 @@ height: 400px;
     padding:10px;
      
 }
+
+
+
+
